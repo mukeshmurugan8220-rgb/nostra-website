@@ -1,0 +1,165 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nostra Fashion</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-black text-white p-5 flex justify-between items-center">
+    <h1 class="text-3xl font-bold">Nostra</h1>
+
+    <ul class="flex gap-6 text-lg">
+      <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+      <li><a href="#products" class="hover:text-yellow-400">Products</a></li>
+      <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-900 text-white text-center p-16">
+    <h1 class="text-5xl font-bold mb-4">Welcome to Nostra</h1>
+    <p class="text-xl mb-6">Trendy Fashion Collections</p>
+
+    <button class="bg-yellow-400 text-black px-6 py-3 rounded font-bold hover:bg-yellow-300">
+      Shop Now
+    </button>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="p-10">
+
+    <h2 class="text-4xl font-bold text-center mb-10">
+      Our Products
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Product Card 1 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 duration-300">
+
+        <img
+          src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518"
+          class="w-full h-72 object-cover"
+        >
+
+        <div class="p-5">
+          <h3 class="text-2xl font-bold">Men Hoodie</h3>
+          <p class="text-gray-600 mt-2">
+            Stylish and comfortable hoodie.
+          </p>
+
+          <p class="text-xl font-bold mt-3">₹999</p>
+
+          <button class="bg-black text-white px-4 py-2 rounded mt-4 hover:bg-gray-800">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 duration-300">
+
+        <img
+          src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+          class="w-full h-72 object-cover"
+        >
+
+        <div class="p-5">
+          <h3 class="text-2xl font-bold">Women Jacket</h3>
+
+          <p class="text-gray-600 mt-2">
+            Premium fashion jacket.
+          </p>
+
+          <p class="text-xl font-bold mt-3">₹1499</p>
+
+          <button class="bg-black text-white px-4 py-2 rounded mt-4 hover:bg-gray-800">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 duration-300">
+
+        <img
+          src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+          class="w-full h-72 object-cover"
+        >
+
+        <div class="p-5">
+          <h3 class="text-2xl font-bold">Casual Shirt</h3>
+
+          <p class="text-gray-600 mt-2">
+            Modern casual shirt collection.
+          </p>
+
+          <p class="text-xl font-bold mt-3">₹799</p>
+
+          <button class="bg-black text-white px-4 py-2 rounded mt-4 hover:bg-gray-800">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="bg-black text-white p-12 text-center">
+    <h2 class="text-4xl font-bold mb-4">Why Choose Nostra?</h2>
+
+    <p class="text-lg">
+      We provide high-quality fashion products with modern style and affordable prices.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-10 bg-gray-200">
+
+    <h2 class="text-4xl font-bold text-center mb-8">
+      Contact Us
+    </h2>
+
+    <form class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+
+      <input
+        type="text"
+        placeholder="Your Name"
+        class="w-full border p-3 mb-4 rounded"
+      >
+
+      <input
+        type="email"
+        placeholder="Your Email"
+        class="w-full border p-3 mb-4 rounded"
+      >
+
+      <textarea
+        placeholder="Message"
+        class="w-full border p-3 mb-4 rounded"
+        rows="5"
+      ></textarea>
+
+      <button class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800">
+        Send Message
+      </button>
+
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center p-5">
+    <p>© 2026 Nostra Fashion. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
